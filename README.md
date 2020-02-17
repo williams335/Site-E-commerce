@@ -1,5 +1,5 @@
 # Site-E-commerce
 
-Voir le fichier Cahier_des_charges_du_site.pdf
+Voir le fichier Cahier_des_charges_du_site.pdf parmis
 
-Tout les détails du projet y figurent.
+Tous les détails du projet y figurent.
