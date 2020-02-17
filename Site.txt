@@ -1,0 +1,36 @@
+http://e-srvlamp/phpmyadmin/
+
+
+
+
+
+$server="e-srvlamp";
+$User="e174915";
+$Pwd="hem23nr";
+$DB="inscription";
+
+
+
+		
+$Connect = mysqli_connect($Server, $User, $Pwd, $DB);
+$ident=$_POST['pseudo'];
+$mot=$_POST['mdp'];
+		
+$Query = "INSERT INTO `e174915`.`inscription` (`pseudo`, `mdp`) VALUES ($ident,$mot)"; 
+		
+		
+$Result = $Connect->query($Query); 
+
+
+Base de données = phpmyadmin
+
+
+clients ( id(11) AI, pseudo varchar(150), mail text, motdepasse text, confirme int(11))
+
+jeux ( Nom text, Ages int(11), TypeJeux varchr(1000), Description varchar(1000))
+
+jeuxludothèque( Nom text, NbJeux int(11), NbJeuxDispos int(11))
+
+prêts( id(11) AI, pseudo text, Nom text, Date_t date )
+
+
